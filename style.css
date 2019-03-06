@@ -1,0 +1,253 @@
+
+body, html
+{
+  height: 100%;
+}
+p
+{
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+h1
+{
+  font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  top: 35px;
+}
+h2
+{
+  font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+}
+h3
+{
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+h4
+{
+  font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+h5
+{
+  font-weight: lighter;
+  font-size: 20px;
+
+
+}
+#head-tab h4
+{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+/*
+#intro h2
+{
+  padding: 25px 0px 0px 0px;
+  font-size: 35px;
+  font-weight: lighter;
+*/
+#welcome h2
+{
+  font-size: 100px;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  font-weight: lighter;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+/*#welcome h5
+{
+  text-align: center;
+  font-size: 15px;
+}*/
+#welcome p
+{
+  padding: 0px 250px 200px 250px;
+  text-align: center;
+  font-size: 18px;
+}
+/*
+.slider
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scroll-snap-points-x: repeat(100%);
+      -ms-scroll-snap-points-x: repeat(100%);
+          scroll-snap-points-x: repeat(100%);
+  -webkit-scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
+}
+.slide
+{
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+*/
+.parallax-lunar
+{
+  background-image: url("./FInal.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-midnight
+{
+  background-image: url("./MS.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container
+{
+  margin: 0px;
+  width: 100%;
+}
+.carousel-item
+{
+  background-color: #E7E7F7;
+}
+.heading
+{
+  padding-top: 30px;
+}
+.image
+{
+  padding-bottom: 50px;
+  float: right;
+}
+#name, #tab-1, #tab-2, #tab-3
+{
+  background-color: #3D3C41;
+  color: white;
+  height: 80px;
+}
+a:link
+{
+  color: #DDDCDF;
+}
+a:visited
+{
+  color: #DDDCDF;
+}
+a:hover
+{
+  color: #EB8E2B;
+  text-decoration: none;
+}
+#welcome
+{
+  background-color:#EB8E2B;
+}
+
+/*#intro
+{
+  background-color: white;
+  border-left: 15px solid #EB8E2B;
+}
+#intro-picture
+{
+  background-image: url("./images.png");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+
+/*#about-me-intro
+{
+  background-image: url("./sample-bg.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+/*#about-me-intro p
+{
+  padding-top: 110px;
+  padding-left: 810px;
+}
+*/
+#music
+{
+  background-image: url("./Music.png");
+  /*background-color: #EB8E2B;
+  background-blend-mode: color;*/
+
+  /*filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+#art
+{
+  background-image: url("./ArtSample.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#language
+{
+  background-image: url("./MTL.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#music:hover, #art:hover, #language:hover
+{
+  background: white;
+  color: #3D3C41;
+}
+#about .col
+{
+  margin: 0px 20px 40px 20px;
+}
+.content
+{
+  opacity: 0;
+}
+#portfolio-title, #about-me-title
+{
+  background-color: white;
+  text-align: center;
+  padding: 20px 0px;
+  height: 80px;
+  color: #3D3C41;
+}
+#contact-tab
+{
+  background-color: #3D3C41;
+  color: white;
+  height: 80px;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+@media only screen and (max-device-width: 1366px)
+{
+  .parallax-lunar, .parallax-midnight
+  {
+    background-attachment: scroll;
+  }
+}
